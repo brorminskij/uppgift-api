@@ -1,0 +1,79 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    color:black;
+    background-color: lightblue;
+}
+.form {
+    text-align: center;
+}
+.display {
+    text-align: center;
+}
+.content {
+    text-align: center;
+}
+.input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.button {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 11px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.degrees {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 78px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 26px;
+}
+
+.temperature {
+    font-size: 52px;
+}
+.description {
+    font-size: 26px
+}

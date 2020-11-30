@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Api</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+
+    <div class="form">
+    <input type="text" class="input" placeholder="Enter a city..">
+    <input type="submit" value="Search" class="button">
+    <input type="checkbox" name="degrees" class="degrees"> Fahrenheit</input>
+    <select class="language">
+        <option value="" selected disabled hidden>Choose here</option>
+        <option value="se">Swedish</option>
+        <option value="sp">Spanish</option>
+        <option value="ru">Russian</option>
+        <option value="ar">Arabic</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+
+    <div class="content">
+        <h1 class="name"></h1>
+        <p class="temperature"></p>
+        <p class="description"></p>
+        <div id="icon"><img id="wicon" src="" alt=""></div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='main.js'></script>
+
+</body>
+</html>
