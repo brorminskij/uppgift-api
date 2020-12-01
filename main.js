@@ -32,8 +32,8 @@ $(document).ready(function () {
       temp.innerHTML = tempValue + " °C";
       let descValue = data.weather[0].description;
       desc.innerHTML = descValue;
-      var iconcode = data.weather[0].icon;
-      var iconurl = "http://openweathermap.org/img/wn/" + iconcode + "@2x.png";
+      let iconcode = data.weather[0].icon;
+      let iconurl = "http://openweathermap.org/img/wn/" + iconcode + "@2x.png";
       $("#wicon").attr("src", iconurl);
     } catch {
       name.innerHTML = "Error! City or region not found.";
@@ -44,7 +44,7 @@ $(document).ready(function () {
   }
 
   async function fetchDegrees() {
-    var checkbox1 = "";
+    let checkbox1 = "";
     if (checkbox.checked) {
       checkbox1 = "imperial";
     } else if (!checkbox.checked) {
