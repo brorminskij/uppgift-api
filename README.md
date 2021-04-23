@@ -8,4 +8,6 @@ Search (country, municapility, county or city),
 
 temperature (celcius/fahrenheit),
 
-language (eng, se, ru, ar & español).
+language (eng, se, ru, ar & español)
+
+#smallfix Added repo to pages
